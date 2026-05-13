@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  @apply text-gray-800 bg-gray-50;
+}
+
+body {
+  @apply m-0 font-sans bg-gray-50 text-gray-800 antialiased overflow-x-hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+[data-theme="dark"] {
+  @apply bg-gray-900 text-gray-100;
+}
+
+@keyframes heroBounce {
+  0%, 100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
