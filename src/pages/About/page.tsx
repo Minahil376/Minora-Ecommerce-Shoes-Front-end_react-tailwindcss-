@@ -15,9 +15,9 @@ export default function About() {
       {/* Who We Are */}
       <section className="bg-gray-100 min-h-[200px] py-16 flex flex-col items-center justify-center">
         <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-rose-600 text-3xl font-extrabold mt-0 mb-5 text-center">Who We Are?</h2>
           <div className="flex items-center flex-wrap gap-14">
             <div className="flex-1 basis-1/2 min-w-[300px] pr-8">
-              <h2 className="text-rose-600 text-3xl font-extrabold mt-0 mb-5">Who We Are?</h2>
               <p className="text-gray-600 leading-[1.8] mb-4">
                 At Minora, footwear isn't just about what you wear — it's about how you move. We craft shoes that blend
                 timeless design with modern comfort, creating styles that help you express confidence and individuality
@@ -39,9 +39,9 @@ export default function About() {
       {/* Our Story */}
       <section className="bg-gray-100 min-h-[200px] py-16 flex flex-col items-center justify-center">
         <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-rose-600 text-3xl font-extrabold mt-0 mb-5 text-center">Our Story</h2>
           <div className="flex items-center flex-wrap gap-14">
             <div className="flex-1 basis-1/2 min-w-[300px] pr-8">
-              <h2 className="text-rose-600 text-3xl font-extrabold mt-0 mb-5">Our Story</h2>
               <p className="text-gray-600 leading-[1.8] mb-4">
                 Minora was born from a simple idea: to design shoes that feel as exceptional as they look. What began
                 as a small passion project soon grew into a brand that celebrates individuality and effortless style.
@@ -62,9 +62,9 @@ export default function About() {
       {/* Our Mission */}
       <section className="bg-gray-100 min-h-[200px] py-16 flex flex-col items-center justify-center">
         <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-rose-600 text-3xl font-extrabold mt-0 mb-5 text-center">Our Mission</h2>
           <div className="flex items-center flex-wrap gap-14">
             <div className="flex-1 basis-1/2 min-w-[300px] pr-8">
-              <h2 className="text-rose-600 text-3xl font-extrabold mt-0 mb-5">Our Mission</h2>
               <p className="text-gray-600 leading-[1.8] mb-4">
                 At Minora, our mission is to redefine everyday footwear by crafting shoes that inspire self-expression
                 and confidence. We want every individual to feel comfortable, bold, and unique — because style is not
